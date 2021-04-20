@@ -1,12 +1,11 @@
-# Plugin name
+# Plugin Template
 
+## Building
+First, make sure you have JDK 14 installed. Then, setup [plugin.json](src/main/resources/plugin.json) and run the following commands:
 
-## Building a Jar
+* Windows: `gradlew jar`
+* *nix/Mac OS: `./gradlew jar`
 
-`gradlew jar` / `./gradlew jar`
+### Troubleshooting
 
-Output jar should be in `build/libs`.
-
-## Installing
-
-Put jar file to `config/mods` folder.
+* If the terminal returns `Permission denied` or `Command not found`, run `chmod +x ./gradlew`.
