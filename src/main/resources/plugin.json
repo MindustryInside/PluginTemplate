@@ -1,7 +1,9 @@
 {
-  "name": "",
-  "author": "",
-  "main": "",
+  "name": "plugin-template",
+  "displayName": "",
   "description": "",
-  "version": ""
+  "author": "",
+  "main": "a",
+  "version": "1.0",
+  "minGameVersion": 126.2
 }
