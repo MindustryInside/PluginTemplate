@@ -1,11 +1,16 @@
-import groovy.json.JsonSlurper
+import groovy.json.*
 
 apply plugin: 'java'
 
 sourceCompatibility = 14
 targetCompatibility = 1.8
 
-repositories{
+sourceSets.main {
+    java.srcDirs = ['src']
+    resources.srcDirs = ['assets']
+}
+
+repositories {
     mavenCentral()
     maven { url 'https://www.jitpack.io' }
 }
